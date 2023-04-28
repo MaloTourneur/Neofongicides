@@ -1,0 +1,1085 @@
+
+R version 4.2.3 (2023-03-15 ucrt) -- "Shortstop Beagle"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R est un logiciel libre livré sans AUCUNE GARANTIE.
+Vous pouvez le redistribuer sous certaines conditions.
+Tapez 'license()' ou 'licence()' pour plus de détails.
+
+R est un projet collaboratif avec de nombreux contributeurs.
+Tapez 'contributors()' pour plus d'information et
+'citation()' pour la façon de le citer dans les publications.
+
+Tapez 'demo()' pour des démonstrations, 'help()' pour l'aide
+en ligne ou 'help.start()' pour obtenir l'aide au format HTML.
+Tapez 'q()' pour quitter R.
+
+> require(shiny)
+Le chargement a nécessité le package : shiny
+> folder_address = 'C:/Users/m24to/OneDrive/Bureau/Programme/R/AppPrincip.R'
+> runApp(folder_address, launch.browser=TRUE)
+
+Attachement du package : 'dplyr'
+
+Les objets suivants sont masqués depuis 'package:stats':
+
+    filter, lag
+
+Les objets suivants sont masqués depuis 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : 'gridExtra'
+
+L'objet suivant est masqué depuis 'package:dplyr':
+
+    combine
+
+Le chargement a nécessité le package : foreach
+Le chargement a nécessité le package : iterators
+Le chargement a nécessité le package : parallel
+
+'nlstools' has been loaded.
+
+IMPORTANT NOTICE: Most nonlinear regression models and data set examples
+related to predictive microbiolgy have been moved to the package 'nlsMicrobio'
+
+
+Attachement du package : 'cowplot'
+
+L'objet suivant est masqué depuis 'package:ggthemes':
+
+    theme_map
+
+
+Listening on http://127.0.0.1:4223
+Avis dans dir.create(main.output) :
+  impossible de créer le répertoire '', à cause de 'No such file or directory'
+`summarise()` has grouped output by 'EO', 'essay'. You can override using the
+`.groups` argument.
+`summarise()` has grouped output by 'EO', 'essay'. You can override using the
+`.groups` argument.
+Avis : The `<scale>` argument of `guides()` cannot be `FALSE`. Use "none" instead as
+of ggplot2 3.3.4.
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+Avis dans norm.inter(t, alpha) :
+  statistiques d'ordre extrême utilisées comme points finaux
+`summarise()` has grouped output by 'EO'. You can override using the `.groups`
+argument.
+Avis : Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.
+Avis : The dot-dot notation (`..density..`) was deprecated in ggplot2 3.4.0.
+ℹ Please use `after_stat(density)` instead.
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Avis : Removed 1 rows containing missing values (`position_stack()`).
+Avis : Removed 1 rows containing missing values (`geom_text()`).
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans matrix(unlist(strsplit(names(init.modif), "[.]")), nrow = 2) :
+  la longueur des données [3] n'est pas un diviseur ni un multiple du nombre de lignes [2]
+Avis dans init[grepl("logIC50", names(init))] <- init.modif :
+  le nombre d'objets à remplacer n'est pas multiple de la taille du remplacement
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans matrix(unlist(strsplit(names(init.modif), "[.]")), nrow = 2) :
+  la longueur des données [3] n'est pas un diviseur ni un multiple du nombre de lignes [2]
+Avis dans init[grepl("logIC50", names(init))] <- init.modif :
+  le nombre d'objets à remplacer n'est pas multiple de la taille du remplacement
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans matrix(unlist(strsplit(names(init.modif), "[.]")), nrow = 2) :
+  la longueur des données [3] n'est pas un diviseur ni un multiple du nombre de lignes [2]
+Avis dans init[grepl("logIC50", names(init))] <- init.modif :
+  le nombre d'objets à remplacer n'est pas multiple de la taille du remplacement
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans matrix(unlist(strsplit(names(init.modif), "[.]")), nrow = 2) :
+  la longueur des données [3] n'est pas un diviseur ni un multiple du nombre de lignes [2]
+Avis dans init[grepl("logIC50", names(init))] <- init.modif :
+  le nombre d'objets à remplacer n'est pas multiple de la taille du remplacement
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans matrix(unlist(strsplit(names(init.modif), "[.]")), nrow = 2) :
+  la longueur des données [3] n'est pas un diviseur ni un multiple du nombre de lignes [2]
+Avis dans init[grepl("logIC50", names(init))] <- init.modif :
+  le nombre d'objets à remplacer n'est pas multiple de la taille du remplacement
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans matrix(unlist(strsplit(names(init.modif), "[.]")), nrow = 2) :
+  la longueur des données [3] n'est pas un diviseur ni un multiple du nombre de lignes [2]
+Avis dans init[grepl("logIC50", names(init))] <- init.modif :
+  le nombre d'objets à remplacer n'est pas multiple de la taille du remplacement
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans matrix(unlist(strsplit(names(init.modif), "[.]")), nrow = 2) :
+  la longueur des données [3] n'est pas un diviseur ni un multiple du nombre de lignes [2]
+Avis dans init[grepl("logIC50", names(init))] <- init.modif :
+  le nombre d'objets à remplacer n'est pas multiple de la taille du remplacement
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+Avis dans nls.lm(par = start, fn = FCT, jac = jac, control = control, lower = lower,  :
+  lmdif: info = -1. Number of iterations has reached `maxiter' == 2.
+
+`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
+Avis : Removed 1 rows containing missing values (`position_stack()`).
+Avis : Removed 1 rows containing missing values (`geom_text()`).

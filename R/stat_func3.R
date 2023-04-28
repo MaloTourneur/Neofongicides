@@ -1,0 +1,36 @@
+statistic3 <- function(data){
+  # scatterplots : densit?s optiques en fonction des concentrations (par manip et par compos?)
+  # graduations pour l'axe x
+  a <- floor(log10(min(data$conc[data$conc>0])))
+  b <- ceiling(log10(max(data$conc))) 
+  breaks <- c(0, 10^(a:b))
+  
+  if ((nb.essay > 1)|((nb.essay == 1)&(nb.EO == 1))){
+    # barplot
+    # pour chaque compos?
+    for (comp in levels(data$EO)){
+      # moyennes et ?carts-types des densit?s optiques par concentration et par manip
+      stat <- data %>% group_by(EO, essay, conc) %>% summarise(mean = mean(OD), sd = sd(OD)) %>%
+        filter(EO==comp)
+      stat$conc <- as.factor(stat$conc)
+      # palette de couleurs pour le graphique
+      nb.conc <- length(levels(stat$conc))
+      ma_palette <- brewer.pal(9, name = "Blues")[3:9]
+      taille.palette <- length(ma_palette)
+      ma_palette <- c(ma_palette, rep(tail(ma_palette, 1), nb.conc - taille.palette))
+      # graphique
+      plt2 <- ggplot(stat, aes(x=conc, y=mean, fill=conc)) + geom_col() + 
+        ggtitle(paste("Means and standard deviations for \n optical densities for product", comp, sep=" ")) +
+        geom_errorbar(aes(ymin=mean-sd, ymax=mean+sd), width=.1) +
+        facet_wrap(~essay, scale="free_x") +
+        theme_hc() + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+        theme(plot.title = element_text(hjust = 0.5)) +
+        scale_fill_manual(values = ma_palette) + 
+        xlab(conc.label) + ylab(OD.label) + guides(fill=FALSE)
+      print(plt2)
+      return(plt2)
+    }
+  }
+ 
+}
+
